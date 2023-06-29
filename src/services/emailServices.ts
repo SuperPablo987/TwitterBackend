@@ -44,4 +44,4 @@ export async function sendEmailToken(email: string, token: string) {
     }
 }
 
-sendEmailToken("peter@okos.ca", '123');
+//sendEmailToken("peter@okos.ca", '123'); // test command
