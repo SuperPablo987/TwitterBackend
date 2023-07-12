@@ -45,3 +45,8 @@ AWS_SECRET_ACCESS_KEY="[from aws]"
 
 to test run email client (be sure to uncomment test command at the end of emailServices.ts):
 npx ts-node src/services/emailServices.ts
+
+For Deployment to AWS:
+
+to start:
+npm run start
