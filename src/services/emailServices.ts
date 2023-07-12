@@ -2,8 +2,7 @@ import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
 import { error } from 'console';
 require('dotenv').config();
 
-const region = 'us-east-2'
-const ses = new SESClient({ region });
+const ses = new SESClient({});
 
 function createSendEmailCommand(toAddress: string, fromAddress: string, message: string){
     return new SendEmailCommand({

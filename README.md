@@ -113,13 +113,11 @@ to check logs of pm2, in the AWS terminal run:
 
 pm2 monit
 
-Update the app and need to pull it to the AWS server?
+~~~~~~Update the app and need to pull it to the AWS server?~~~~~~
 
 1) navigate to the directory of the application (i.e. cd TwitterBackend)
 2) git pull
 3) npm run build
 4) pm2 ls (or status) - to check status of running instances (not necessary)
 5) pm2 restsrt all (or individual file)
-
-
-1:01:59
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
